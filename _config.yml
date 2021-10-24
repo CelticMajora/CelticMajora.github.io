@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   working on, hobbies I pursue, and other random topics. Outside of posts talking 
   about what I do, I'll also just use this as a hub linking out things I do.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://CelticMajora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.celticmajora.com"
 twitter:
   username: "CelticMajora"
 social:
@@ -41,7 +41,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CeltiMajora"
+      url: "https://github.com/CelticMajora"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CelticMajora"
@@ -49,7 +49,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/CeltiMajora"
+      url: "https://github.com/CelticMajora"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CelticMajora"
