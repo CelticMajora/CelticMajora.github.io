@@ -2,6 +2,7 @@
 layout: single
 title:  "Doing this far too late"
 date:   2021-10-23 12:38:31 -0400
+tags: personal software tabletop food
 header:
   teaser: /assets/images/posts/2021-10-23-doing-this-far-too-late/header.jpg
 ---
