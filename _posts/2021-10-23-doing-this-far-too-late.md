@@ -4,13 +4,11 @@ title:  "Doing this far too late"
 date:   2021-10-23 12:38:31 -0400
 header:
   teaser: /assets/images/posts/2021-10-23-doing-this-far-too-late/header.jpg
-excerpt_separator: <!--end_excerpt-->
 ---
 
 It's about time I made a personal site. Sitting home today watching an ExtraLife charity stream and finally decided to get around to it. So here it is, all spun up whilst watching Stephen Georg and crew play shovelware from the North America Wii library.
 
 Hi, I'm CelticMajora, and I'll be using this site to talk about projects I'm working on, hobbies I pursue, and other random topics. Outside of posts talking about what I do, I'll also just use this as a hub linking out things I do.
-<!--end_excerpt-->
 
 ## Software Engineering
 

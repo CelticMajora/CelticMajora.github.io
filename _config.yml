@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Home
+title: CelticMajora
+masthead_title: Home
 name: "Caleb Donoho"
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm CelticMajora, and I'll be using this site to talk about projects I'm 
@@ -74,6 +75,16 @@ defaults:
       layout: single
       share: true
       related: true
+      author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
