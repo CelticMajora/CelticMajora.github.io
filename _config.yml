@@ -18,21 +18,73 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CelticMajora's personal site
-email: cdonoho16@gmail.com
+title: CelticMajora
+masthead_title: Home
+name: "Caleb Donoho"
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm CelticMajora, and I'll be using this site to talk about projects I'm 
   working on, hobbies I pursue, and other random topics. Outside of posts talking 
   about what I do, I'll also just use this as a hub linking out things I do.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://CelticMajora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: CelticMajora
-github_username:  CelticMajora
+twitter:
+  username: "CelticMajora"
+social:
+  links:
+    - "https://twitter.com/CelticMajora"
+    - "https://www.linkedin.com/in/caleb-donoho-1b8681135"
+author:
+  name: "Caleb Donoho"
+  avatar: "/assets/images/author_image.jpg"
+  bio: "NYC based engineer currently working in Flutter with a passion for Software Quality Assurance"
+  location: "Queens, NY"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CeltiMajora"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/CelticMajora"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/CeltiMajora"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/CelticMajora"
+repository: "CelticMajora/CelticMajora.github.io"
+search: true
+paginate: 5
+teaser: /assets/images/fallback_teaser.jpg
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      layout: single
+      share: true
+      related: true
+      author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
