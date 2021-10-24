@@ -59,7 +59,7 @@ paginate: 5
 teaser: /assets/images/fallback_teaser.jpg
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
