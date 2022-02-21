@@ -17,7 +17,7 @@ My personal weightings are 25% vibe, 30% ingredients, and 45% overall value.
 
 ### Vibe
 
-INSERT SECTION HERE
+The vibe score is fairly self explanatory. It encompasses the restaurant decor, employee demenaor, music/crowd noise, or almost anything that goes into your pizza eating experience that isn't related to the pizza itself.
 
 ### Ingredients
 
